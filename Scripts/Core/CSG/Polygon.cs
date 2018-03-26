@@ -165,7 +165,8 @@ namespace Sabresaurus.SabreCSG
 	        }
 
 			// Flip the cached plane
-			cachedPlane = cachedPlane.Value.Flip();
+			throw new System.Exception("Assert this code is inaccessible"); // Change made during 2018.1 upgrade
+			//cachedPlane = cachedPlane.Value.Flip();
 	    }
 
 		public void SetVertices(Vertex[] vertices)
